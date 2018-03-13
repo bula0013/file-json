@@ -1,0 +1,218 @@
+{
+  "status": "success",
+  "message": "Success",
+  "data":
+  [
+    {
+      "id": 12,
+      "user_id": 1,
+      "price": 3,
+      "deliveryDays": 1,
+      "perHour": 1,
+      "img": null,
+      "created_at": "2017-07-24 00:13:21",
+      "deleted_at": null,
+      "status": "active",
+      "recommended": 0,
+      "shopName": "alekdrozak",
+      "isShopPaymentPlan": true,
+      "category":
+        {
+          "name": "Online Marketing",
+          "id": 1
+        },
+      "subcategory":
+        {
+          "name": "Keyword research",
+          "id": 1
+        },
+      "currency":
+        {
+          "symbol": "USD",
+          "id": 2
+        },
+      "type":
+        {
+          "name": "Job",
+          "id": 1
+        },
+      "user":
+        {
+          "id": 1,
+          "email": "alekdrozak@gmail.com",
+          "name": "Aleksander",
+          "surname": "Drożak",
+          "payPal": "aleksander.drozak-facilitator2@gmail.com",
+          "img": "1.jpg",
+          "GMT": "GMT+1",
+          "rate": "0.00",
+          "skypeId": "alekdrozak@gmail.com",
+          "shopName": "alekdrozak"
+        },
+      "languages":
+            [
+              {
+                "offer_id": 12,
+                "language_id": 1
+              }
+            ],
+      "title": "Temporary Offer other account",
+      "text": "Some Content"
+    },
+    {
+          "id": 52,
+          "user_id": 1,
+          "price": 3333,
+          "deliveryDays": 1,
+          "perHour": 0,
+          "img": null,
+          "created_at": "2017-09-26 22:12:14",
+          "deleted_at": null,
+          "status": "active",
+          "recommended": 0,
+          "shopName": "alekdrozak",
+          "isShopPaymentPlan": true,
+          "category":
+            {
+              "name": "Online Marketing",
+              "id": 1
+            },
+          "subcategory":
+            {
+              "name": "Keyword research",
+              "id": 1
+            },
+          "currency":
+            {
+              "symbol": "USD",
+              "id": 2
+            },
+          "type":
+            {
+              "name": "Job",
+              "id": 1
+            },
+          "user":
+            {
+              "id": 1,
+              "email": "alekdrozak@gmail.com",
+              "name": "Aleksander",
+              "surname": "Drożak",
+              "payPal": "aleksander.drozak-facilitator2@gmail.com",
+              "img": "1.jpg",
+              "GMT": "GMT+1",
+              "rate": "0.00",
+              "skypeId": "alekdrozak@gmail.com",
+              "shopName": "alekdrozak"
+            },
+          "languages":
+                [
+                  {
+                    "offer_id": 52,
+                    "language_id": 1
+                  }
+                ],
+          "title": "Offer with Milestones 3",
+          "text": "Offer with Milestones content ",
+          "milestones":
+                [
+                  {
+                    "id": 3,
+                    "offerId": 52,
+                    "step": 1,
+                    "price": 333,
+                    "contents":
+                      [
+                        {
+                          "id": 1,
+                          "offer_milestone_id": 3,
+                          "title": "First milestone",
+                          "comment": "first milestone content",
+                          "language": "English",
+                          "created_at": "2017-09-26 22:12:29",
+                          "updated_at": "2017-09-26 22:12:29"
+                        }
+                      ]
+                  },
+                  {
+                    "id": 4,
+                    "offerId": 52,
+                    "step": 2,
+                    "price": 3000,
+                    "contents":
+                      [
+                        {
+                          "id": 2,
+                          "offer_milestone_id": 4,
+                          "title": "second milestone",
+                          "comment": "second milestone content",
+                          "language": "English",
+                          "created_at": "2017-09-26 22:12:32",
+                          "updated_at": "2017-09-26 22:12:32"
+                        }
+                      ]
+                    }
+                  ]
+    },
+    {
+                  "id": 9,
+                  "user_id": 2,
+                  "price": 100,
+                  "deliveryDays": 2,
+                  "perHour": 0,
+                  "img": "9.jpg",
+                  "created_at": "2017-07-14 17:30:51",
+                  "deleted_at": null,
+                  "status": "active",
+                  "recommended": 0,
+                  "shopName": null,
+                  "isShopPaymentPlan": false,
+                  "category":
+                    {
+                      "name": "Programming",
+                      "id": 5
+                    },
+                    "subcategory":
+                      {
+                        "name": "PHP",
+                        "id": 38
+                      },
+                    "currency":
+                      {
+                        "symbol": "USD",
+                        "id": 2
+                      },
+                    "type":
+                      {
+                        "name": "Job",
+                        "id": 1
+                      },
+                    "user":
+                      {
+                        "id": 2,
+                        "email": "alekdrozak2@gmail.com",
+                        "name": "Aleksander",
+                        "surname": "Drożak",
+                        "payPal": "aleksander.drozak-facilitator@gmail.com",
+                        "img": "2.jpg",
+                        "GMT": "GMT+4",
+                        "rate": "0.00",
+                        "skypeId": "2",
+                        "shopName": null
+                      },
+                      "languages":
+                        [
+                          {
+                            "offer_id": 9,
+                            "language_id": 1
+                          },
+                          {
+                            "offer_id": 9,
+                            "language_id": 2
+                          }
+                        ],
+                      "title": "Create Website 4U",
+                      "text": "This is offert to testes it's not a real offer, don't call. ;\/"
+    }
+  ]
+}
